@@ -1,6 +1,6 @@
 import tweepy
 
-#Twitter API are stored om congif.py
+#Twitter API credentials are stored om config.py
 # BEARER_TOKEN = '<token>'
 
 # API_KEY = '<key>'
@@ -8,6 +8,8 @@ import tweepy
 
 # ACCESS_TOKEN = '<token>'
 # SECRET_TOKEN = '<token>'
+
+#Import the file where above credentials are stored
 import config
 
 client = tweepy.Client(bearer_token=config.BEARER_TOKEN)
